@@ -1,0 +1,499 @@
+const themeData = {
+  "base": "vs-dark",
+  "inherit": true,
+  "rules": [
+    {
+      "foreground": "6d6d6d",
+      "token": "comment"
+    },
+    {
+      "foreground": "6d6d6d",
+      "token": "string.quoted.multiline.graphql"
+    },
+    {
+      "foreground": "54c59f",
+      "token": "constant.other.js"
+    },
+    {
+      "foreground": "54c59f",
+      "token": "string"
+    },
+    {
+      "foreground": "54c59f",
+      "token": "constant.numeric"
+    },
+    {
+      "foreground": "54c59f",
+      "token": "diff.inserted"
+    },
+    {
+      "foreground": "54c59f",
+      "token": "constant.language.boolean"
+    },
+    {
+      "foreground": "54c59f",
+      "token": "punctuation.separator.path.html"
+    },
+    {
+      "foreground": "54c59f",
+      "token": "meta.link.inline.description.markdown"
+    },
+    {
+      "foreground": "54c59f",
+      "token": "punctuation.separator.path.css"
+    },
+    {
+      "foreground": "54c59f",
+      "token": "entity.other.attribute-name.id.css"
+    },
+    {
+      "foreground": "54c59f",
+      "token": "support.type.graphql"
+    },
+    {
+      "foreground": "54c59f",
+      "token": "source.tsx meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js"
+    },
+    {
+      "foreground": "54c59f",
+      "token": "source.js.jsx meta.jsx source.js.jsx meta.jsx"
+    },
+    {
+      "foreground": "54c59f",
+      "token": "source.js.jsx meta.jsx meta.jsx meta.jsx meta.jsx meta.jsx"
+    },
+    {
+      "foreground": "54c59f",
+      "token": "source.js meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js"
+    },
+    {
+      "foreground": "6cb2c7",
+      "fontStyle": "normal",
+      "token": "entity.name.type"
+    },
+    {
+      "foreground": "6cb2c7",
+      "fontStyle": "normal",
+      "token": "entity.name.interface"
+    },
+    {
+      "foreground": "6cb2c7",
+      "fontStyle": "normal",
+      "token": "meta.function-call.constructor"
+    },
+    {
+      "foreground": "6cb2c7",
+      "fontStyle": "normal",
+      "token": "punctuation.section.interpolation"
+    },
+    {
+      "foreground": "6cb2c7",
+      "fontStyle": "normal",
+      "token": "support.class"
+    },
+    {
+      "foreground": "6cb2c7",
+      "fontStyle": "normal",
+      "token": "support.other.namespace"
+    },
+    {
+      "foreground": "6cb2c7",
+      "fontStyle": "normal",
+      "token": "storage.type.namespace"
+    },
+    {
+      "foreground": "6cb2c7",
+      "fontStyle": "normal",
+      "token": "storage.type"
+    },
+    {
+      "foreground": "6cb2c7",
+      "fontStyle": "normal",
+      "token": "meta.function.parameters.js"
+    },
+    {
+      "foreground": "6cb2c7",
+      "fontStyle": "normal",
+      "token": "entity.other.inherited-class"
+    },
+    {
+      "foreground": "6cb2c7",
+      "fontStyle": "normal",
+      "token": "meta.path"
+    },
+    {
+      "foreground": "6cb2c7",
+      "fontStyle": "normal",
+      "token": "entity.name.class"
+    },
+    {
+      "foreground": "6cb2c7",
+      "fontStyle": "normal",
+      "token": "entity.other.attribute-name.class.css"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "punctuation.definition.italic.begin.markdown"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "punctuation.definition.italic.end.markdown"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "punctuation.definition.list_item.markdown"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "punctuation.definition.bold.begin.markdown"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "punctuation.definition.bold.end.markdown"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "punctuation.definition.heading.begin.markdown"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "punctuation.definition.raw.code-fence.begin.markdown"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "punctuation.definition.raw.code-fence.end.markdown"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "storage.type.js"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "meta.mapping.key.json\r\n\t\t\t\tstring.quoted.double.json"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "variable.type.graphql"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "entity.name.type.object.graphql"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "storage.modifier"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "keyword"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "constant.character.escaped"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "constant.character.escape"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "string source"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "string\r\n\t\t\t\tsource.ruby"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "constant.character"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "constant.other"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "constant.language"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "entity.name.tag"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "variable.language"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "support.type"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "punctuation.separator.type"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "markup.underline.link.markdown"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "constant.numeric.suffix.css"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "punctuation.definition.blockquote.markdown"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "entity.name.function.constructor.js"
+    },
+    {
+      "foreground": "8464c6",
+      "token": "support.constant.node.js"
+    },
+    {
+      "foreground": "c55858",
+      "token": "markup.deleted"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "source.ts\r\n\t\t\t\tmeta.export.js\r\n\t\t\t\tmeta.type-alias.js\r\n\t\t\t\tmeta.block.js\r\n\t\t\t\tvariable.other.readwrite.js"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "source.ts\r\n\t\t\t\tmeta.interface.js\r\n\t\t\t\tmeta.block.js\r\n\t\t\t\tvariable.other.readwrite.js"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "meta.tag.attributes\r\n\t\t\t\tentity.other.attribute-name"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "meta.mapping.key"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "meta.binding.destructuring.mapping"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "storage.type.class"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "meta.property.object"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "punctuation.separator"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "punctuation.terminator.statement"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "storage.modifier.array"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "punctuation.section"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "source.ts\r\n\t\t\t\tmeta.export.js\r\n\t\t\t\tmeta.class.js\r\n\t\t\t\tmeta.block.js\r\n\t\t\t\tsource.ts\r\n\t\t\t\tmeta.export.js\r\n\t\t\t\tmeta.mapping.js\r\n\t\t\t\tpunctuation.separator.comma.js"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "punctuation.section.embedded.begin"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "punctuation.section.embedded.end"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "punctuation.separator.namespace"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "meta.function.return-type"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "punctuation.accessor"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "source.ts\r\n\t\t\t\tmeta.export.js\r\n\t\t\t\tmeta.mapping.js\r\n\t\t\t\tmeta.mapping.key.js"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "meta.property-name.css support.type.property-name.css"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "punctuation.definition.pseudo-class.css"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "entity.other.pseudo-class.css"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "source.ts meta.type-alias.js meta.block.js variable.other.readwrite.js"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "entity.name.field.graphql"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": "entity.other.attribute-name.(.*).html"
+    },
+    {
+      "foreground": "c17ac8",
+      "token": ""
+    },
+    {
+      "foreground": "bdbdbd",
+      "token": "punctuation.section.block"
+    },
+    {
+      "foreground": "bdbdbd",
+      "token": "punctuation.section.group"
+    },
+    {
+      "foreground": "bdbdbd",
+      "token": "variable.parameter.function"
+    },
+    {
+      "foreground": "bdbdbd",
+      "token": "variable.other"
+    },
+    {
+      "foreground": "bdbdbd",
+      "token": "string.unquoted.css"
+    },
+    {
+      "foreground": "bdbdbd",
+      "token": "constant.other.language-name.markdown"
+    },
+    {
+      "foreground": "bdbdbd",
+      "token": "source.ts punctuation.terminator.statement.empty.js"
+    },
+    {
+      "foreground": "bdbdbd",
+      "token": "source.ts meta.type-alias.js meta.block.js punctuation.separator.js"
+    },
+    {
+      "foreground": "bdbdbd",
+      "token": "punctuation.terminator.statement.js"
+    },
+    {
+      "foreground": "bdbdbd",
+      "token": "source.tsx meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js punctuation"
+    },
+    {
+      "foreground": "bdbdbd",
+      "token": "source.js.jsx entity.name.type"
+    },
+    {
+      "foreground": "bdbdbd",
+      "token": "source.js meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js punctuation"
+    },
+    {
+      "foreground": "bdbdbd",
+      "token": "punctuation.section.(.*).(.*).json"
+    },
+    {
+      "foreground": "bdbdbd",
+      "token": ""
+    },
+    {
+      "foreground": "c7a06f",
+      "token": "entity.name.section.markdown"
+    },
+    {
+      "foreground": "c7a06f",
+      "token": "entity.name.type.scalar.graphql"
+    },
+    {
+      "foreground": "c7a06f",
+      "token": "variable.language.super"
+    },
+    {
+      "foreground": "c7a06f",
+      "token": "entity.name.function"
+    },
+    {
+      "foreground": "c7a06f",
+      "token": "support.function"
+    },
+    {
+      "foreground": "c7a06f",
+      "token": "variable.function"
+    },
+    {
+      "foreground": "c7a06f",
+      "token": "source.tsx\r\n\t\t\t\tmeta.export.js\r\n\t\t\t\tmeta.function.js\r\n\t\t\t\tmeta.block.js\r\n\t\t\t\tmeta.group.js\r\n\t\t\t\tmeta.jsx.js\r\n\t\t\t\tmeta.tag.name.js\r\n\t\t\t\tentity.name.tag.js"
+    },
+    {
+      "foreground": "c7a06f",
+      "token": "source.tsx\r\n\t\t\t\tmeta.function-call.method.js\r\n\t\t\t\tmeta.group.js\r\n\t\t\t\tmeta.jsx.js\r\n\t\t\t\tmeta.tag.name.js\r\n\t\t\t\tentity.name.tag.js"
+    },
+    {
+      "foreground": "c7a06f",
+      "token": "meta.function-call.constructor.js"
+    },
+    {
+      "foreground": "c7a06f",
+      "token": "entity.name.tag.jsx"
+    },
+    {
+      "foreground": "c7a06f",
+      "token": "source.js meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js meta.tag.name.js entity.name.tag.js"
+    },
+    {
+      "fontStyle": "italic",
+      "token": "support.class"
+    },
+    {
+      "fontStyle": "italic",
+      "token": "support.other.namespace"
+    },
+    {
+      "fontStyle": "italic",
+      "token": "variable.parameter"
+    },
+    {
+      "fontStyle": "italic",
+      "token": "storage.type.namespace"
+    },
+    {
+      "fontStyle": "italic",
+      "token": "storage.type"
+    },
+    {
+      "fontStyle": "italic",
+      "token": "storage.type.class"
+    },
+    {
+      "fontStyle": "italic",
+      "token": "markup.italic.markdown"
+    },
+    {
+      "fontStyle": "bold",
+      "token": "markup.bold.markdown"
+    }
+  ],
+  "colors": {
+    "editor.foreground": "#bdbdbd",
+    "editor.background": "#15141b",
+    "editor.selectionBackground": "#a394f033",
+    "editor.lineHighlightBackground": "#a394f033",
+    "editorCursor.foreground": "#bdbdbd",
+    "editor.selectionHighlightBorder": "#af8aff7f"
+  }
+}

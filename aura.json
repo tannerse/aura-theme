@@ -380,7 +380,7 @@
 			"token": "punctuation.section.group"
 		},
 		{
-			"foreground": "bdbdbd",
+			"foreground": "6C9EF8",
 			"token": "variable.parameter.function"
 		},
 		{

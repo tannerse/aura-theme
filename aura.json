@@ -408,7 +408,7 @@
 			"token": "punctuation.terminator.statement.js"
 		},
 		{
-			"foreground": "bdbdbd",
+			"foreground": "6C9EF8",
 			"token": "source.tsx meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js punctuation"
 		},
 		{
@@ -416,7 +416,7 @@
 			"token": "source.js.jsx entity.name.type"
 		},
 		{
-			"foreground": "bdbdbd",
+			"foreground": "6C9EF8",
 			"token": "source.js meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js punctuation"
 		},
 		{
@@ -452,11 +452,11 @@
 			"token": "variable.function"
 		},
 		{
-			"foreground": "c7a06f",
+			"foreground": "6C9EF8",
 			"token": "source.tsx\r\n\t\t\t\tmeta.export.js\r\n\t\t\t\tmeta.function.js\r\n\t\t\t\tmeta.block.js\r\n\t\t\t\tmeta.group.js\r\n\t\t\t\tmeta.jsx.js\r\n\t\t\t\tmeta.tag.name.js\r\n\t\t\t\tentity.name.tag.js"
 		},
 		{
-			"foreground": "c7a06f",
+			"foreground": "6C9EF8",
 			"token": "source.tsx\r\n\t\t\t\tmeta.function-call.method.js\r\n\t\t\t\tmeta.group.js\r\n\t\t\t\tmeta.jsx.js\r\n\t\t\t\tmeta.tag.name.js\r\n\t\t\t\tentity.name.tag.js"
 		},
 		{
@@ -468,7 +468,7 @@
 			"token": "entity.name.tag.jsx"
 		},
 		{
-			"foreground": "c7a06f",
+			"foreground": "6C9EF8",
 			"token": "source.js meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js meta.tag.name.js entity.name.tag.js"
 		},
 		{

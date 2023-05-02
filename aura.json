@@ -400,7 +400,7 @@
 			"token": "source.ts punctuation.terminator.statement.empty.js"
 		},
 		{
-			"foreground": "bdbdbd",
+			"foreground": "6C9EF8",
 			"token": "source.ts meta.type-alias.js meta.block.js punctuation.separator.js"
 		},
 		{
@@ -412,7 +412,7 @@
 			"token": "source.tsx meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js punctuation"
 		},
 		{
-			"foreground": "bdbdbd",
+			"foreground": "6C9EF8",
 			"token": "source.js.jsx entity.name.type"
 		},
 		{

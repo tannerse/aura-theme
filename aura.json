@@ -1,4 +1,4 @@
-const themeData = {
+{
   "base": "vs-dark",
   "inherit": true,
   "rules": [

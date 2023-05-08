@@ -10,6 +10,10 @@
 			"foreground": "ffca85",
 			"token": "meta.object-literal.key.js"
 		},
+	  	{
+			"foreground": "ffca85",
+			"token": "delimiter.js"
+		},
 		{
 			"foreground": "0af7c3",
 			"token": "meta.object-literal.key"

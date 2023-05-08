@@ -11,7 +11,7 @@
 			"token": "meta.object-literal.key.js"
 		},
 	  	{
-			"foreground": "0366d6",
+			"foreground": "445d83",
 			"token": "delimiter.js"
 		},
 	  	{

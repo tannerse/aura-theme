@@ -11,9 +11,14 @@
 			"token": "meta.object-literal.key.js"
 		},
 	  	{
-			"foreground": "ffca85",
+			"foreground": "0366d6",
 			"token": "delimiter.js"
 		},
+	  	{
+			"foreground": "ffca85",
+			"token": "delimiter.bracket.js"
+		},
+	  
 		{
 			"foreground": "0af7c3",
 			"token": "meta.object-literal.key"

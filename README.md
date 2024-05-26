@@ -91,6 +91,24 @@
       <span>CodeSandbox</span>
       </p>
     </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/neovim">
+          <img src="https://user-images.githubusercontent.com/1149845/243113045-89c2cfcf-6ff8-42cb-b911-319b2a10bcea.png" align="center" />
+        </a>
+        <br/><br/>
+        <span>Neovim</span>
+      </p>
+    </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/zed">
+          <img src="https://github.com/daltonmenezes/aura-theme/assets/25427808/507b3e6c-1f94-419c-b27a-2e1900277d66" align="center" />
+        </a>
+        <br/><br/>
+        <span>Zed</span>
+      </p>
+    </td>
   </tr>
  </table>
 
@@ -153,6 +171,7 @@
       </p>
     </td>
   </tr>
+  <tr>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/terminal-app">
@@ -197,7 +216,7 @@
        <br/><br/>
         <span>Tabby.sh</span>
       </p>
-    </td> 
+    </td>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/tilix">
@@ -206,7 +225,18 @@
        <br/><br/>
         <span>Tilix</span>
       </p>
-    </td> 
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/warp">
+          <img src="https://user-images.githubusercontent.com/1149845/277492334-5de78c3b-792c-4f14-8dc6-58dbbe32d14d.png" align="center">
+        </a>
+        <br/><br/>
+        <span>Warp</span>
+      </p>
+    </td>
   </tr>
  </table>
 
@@ -247,6 +277,7 @@
 ### Others
 
 <table >
+  <tr>
     <td valign="top">
       <p align="center">
         <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/insomnia">
@@ -320,6 +351,26 @@
       </p>
     </td>
   </tr>
+  <tr>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/waybar">
+          <img src="https://user-images.githubusercontent.com/1149845/223878470-0c545ad8-faf6-4df5-8d63-5c8547d92b50.png" align="center" />
+        </a>
+        <br/><br/>
+        <span>Waybar</span>
+      </p>
+    </td>
+    <td valign="top">
+      <p align="center">
+        <a href="https://github.com/daltonmenezes/aura-theme/tree/main/packages/sway">
+          <img src="https://user-images.githubusercontent.com/1149845/224836549-d6831bfc-0217-4711-8038-f822d4887bd3.png" align="center" />
+        </a>
+        <br/><br/>
+        <span>Sway</span>
+      </p>
+    </td>
+  </tr>
  </table>
 
 # Documentation
@@ -366,6 +417,7 @@
 </table>
 
 # Contributing
+
 > Contributions are always welcome, but always **ask first**, — please — before work on a PR.
 
 That said, there's a bunch of ways you can contribute to this project, like by:

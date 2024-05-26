@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-✨ A beautiful dark theme for Google Chrome and another apps
+✨ A beautiful dark theme for Google Chrome and other apps
   <br><br>
 
   <!-- Patreon -->
@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-  <img alt="preview" src="https://github.com/daltonmenezes/assets/blob/master/images/aura-theme/aura-chrome-preview.png?raw=true" />
+  <img alt="preview" src="https://github.com/daltonmenezes/aura-theme/assets/1149845/b6400889-80a0-4d63-97c9-f816a6bc24be" />
 </p>
 
 # Installation

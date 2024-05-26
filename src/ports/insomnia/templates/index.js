@@ -9,12 +9,15 @@ const colors = {
   accent8: '{{ accent0 }}',
   accent9: '{{ accent23 }}',
   accent10: '{{ accent0 }}',
+  accent11: '{{ accent11 }}',
+  accent12: '{{ accent22 }}',
 }
 
 module.exports.themes = [
   {
     name: '{{ name }}',
     displayName: '{{ displayName }}',
+
     theme: {
       foreground: {
         default: colors.accent1,
@@ -22,6 +25,7 @@ module.exports.themes = [
         surprise: colors.accent10,
         warning: colors.accent10,
       },
+
       background: {
         default: colors.accent2,
         success: colors.accent3,
@@ -31,7 +35,20 @@ module.exports.themes = [
         surprise: colors.accent4,
         info: colors.accent7,
       },
+
       rawCss: `
+      ::-webkit-scrollbar-track {
+        background: ${colors.accent11};
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: ${colors.accent3};
+      }
+
+      ::selection {
+        background: ${colors.accent12};
+      }
+
       .react-tabs .react-tabs__tab .bubble {
         background: ${colors.accent3};
         color: ${colors.accent8};
@@ -48,6 +65,7 @@ module.exports.themes = [
         color: ${colors.accent10} !important;
       }
     `,
+
       highlight: {
         xs: colors.accent9,
         md: colors.accent8,
